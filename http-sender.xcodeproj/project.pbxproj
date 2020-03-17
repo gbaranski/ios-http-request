@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68D52A0C241FEFF600F58058 /* http-sender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "http-sender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D52A0C241FEFF600F58058 /* control-home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "control-home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D52A0F241FEFF600F58058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68D52A11241FEFF600F58058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68D52A13241FEFF600F58058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		68D52A0D241FEFF600F58058 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68D52A0C241FEFF600F58058 /* http-sender.app */,
+				68D52A0C241FEFF600F58058 /* control-home.app */,
 				68D52A22241FEFF700F58058 /* http-senderTests.xctest */,
 				68D52A2D241FEFF700F58058 /* http-senderUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "http-sender";
 			productName = "http-sender";
-			productReference = 68D52A0C241FEFF600F58058 /* http-sender.app */;
+			productReference = 68D52A0C241FEFF600F58058 /* control-home.app */;
 			productType = "com.apple.product-type.application";
 		};
 		68D52A21241FEFF700F58058 /* http-senderTests */ = {
@@ -441,8 +441,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gbaranski.http-sender";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "gbaranski.control-home";
+				PRODUCT_NAME = "control-home";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,8 +459,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gbaranski.http-sender";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "gbaranski.control-home";
+				PRODUCT_NAME = "control-home";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
