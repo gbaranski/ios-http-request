@@ -15,19 +15,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-7j-aqE">
-                                <rect key="frame" x="120" y="302" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Get Remaining time"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-7j-aqE">
+                                <rect key="frame" x="0.0" y="175" width="375" height="100"/>
+                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="g0Z-7r-yNV"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Get Remaining time">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="40" name="Avenir-Light"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="charWrapping" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
                                 <connections>
                                     <action selector="getRemainingTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WVh-ju-Vqd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUg-x5-QOd">
-                                <rect key="frame" x="120" y="127" width="92" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Start timer"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rH6-EP-SwP">
+                                <rect key="frame" x="0.0" y="391" width="375" height="0.0"/>
+                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Nothing yet">
+                                            <attributes>
+                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="40" name="Avenir-Light"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUg-x5-QOd">
+                                <rect key="frame" x="0.0" y="283" width="375" height="417"/>
+                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="VeH-rp-0mR"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start water mixing">
+                                            <attributes>
+                                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" size="40" name="Avenir-Light"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
                                 <connections>
                                     <action selector="startTimerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JB7-3p-tUe"/>
                                 </connections>
@@ -35,8 +78,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CUg-x5-QOd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MrO-qa-yKZ"/>
-                            <constraint firstItem="CUg-x5-QOd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d7O-tG-lTI"/>
+                            <constraint firstItem="Mkh-7j-aqE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="175" id="ISb-G0-gOg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rH6-EP-SwP" secondAttribute="bottom" constant="176" id="PRl-Kf-XKb"/>
+                            <constraint firstItem="CUg-x5-QOd" firstAttribute="leading" secondItem="rH6-EP-SwP" secondAttribute="leading" id="TQZ-NR-dlJ"/>
+                            <constraint firstItem="rH6-EP-SwP" firstAttribute="top" secondItem="CUg-x5-QOd" secondAttribute="bottom" constant="8" id="TvP-FU-0ie"/>
+                            <constraint firstItem="CUg-x5-QOd" firstAttribute="trailing" secondItem="rH6-EP-SwP" secondAttribute="trailing" id="Ym1-Ti-f7P"/>
+                            <constraint firstItem="Mkh-7j-aqE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eKC-jj-PuC"/>
+                            <constraint firstItem="Mkh-7j-aqE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ekZ-Ld-Z5n"/>
+                            <constraint firstItem="CUg-x5-QOd" firstAttribute="top" secondItem="Mkh-7j-aqE" secondAttribute="bottom" constant="8" id="p00-Dx-lHI"/>
+                            <constraint firstItem="Mkh-7j-aqE" firstAttribute="leading" secondItem="CUg-x5-QOd" secondAttribute="leading" id="tRd-9f-d7x"/>
+                            <constraint firstItem="Mkh-7j-aqE" firstAttribute="trailing" secondItem="CUg-x5-QOd" secondAttribute="trailing" id="zCa-Ly-owg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
